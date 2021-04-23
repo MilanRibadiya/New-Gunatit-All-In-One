@@ -2,8 +2,9 @@
     <!-- Base application theme. -->
     <style name="Theme.NewGunatitAllInOne" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
+        <item name="windowNoTitle">true</item>
         <item name="colorPrimary">@color/purple_200</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorPrimaryVariant">#BF9E9E9E</item>
         <item name="colorOnPrimary">@color/black</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>
@@ -12,5 +13,9 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+
+        <item name="main_color">#333333</item>
+        <item name="icon_tint">#FFFFFF</item>
+        <item name="title_txt_color">#FFFFFF</item>
     </style>
 </resources>
